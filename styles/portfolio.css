@@ -108,6 +108,36 @@ i {
   margin: 30px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 15px;
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--other-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
